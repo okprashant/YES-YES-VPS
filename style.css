@@ -1,0 +1,198 @@
+
+/* ++++++++++++++++++++ Common Styles ++++++++++++++++++++ */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body {
+	color: rgb(255, 191, 241);
+	background-color: #08123d;
+	font-family:  Comic Sans MS, Comic Sans, cursive;
+	font-size: 100%;
+	text-align: center;
+	text-shadow: 2px 2px 2px rgb(220, 82, 255);
+}
+
+a {
+	color: rgb(255, 255, 255);
+	background-color: inherit;
+	text-decoration:  underline;
+}
+
+a:hover {
+	color: rgb(226, 207, 207);
+	background-color: inherit;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+ul, ul li {
+	list-style: none outside;
+}
+
+ol, ol li {
+	list-style: decimal inside;
+}
+
+p {
+	padding: 0.6em 0em 0.6em;
+}
+
+.hidethis {
+	display: none;
+
+}
+
+
+.clearthis {
+	margin : 0px;
+	height : 1px;
+	clear : both;
+	float : none;
+	font-size: 1px;
+	overflow : hidden;
+	visibility: hidden;
+}
+/* ++++++++++++++++++++ Images  ++++++++++++++++++++ */
+
+.tb_center img {	
+	border: 1px rgb(225, 230, 222) solid;
+}
+.tb_center {
+	text-align: center;
+}
+
+/* ++++++++++++++++++++ Body background ++++++++++++++++++++ */
+
+#body_wrapper {	
+	width: 100%;
+	
+	background: url('bg3.png') no-repeat  fixed;
+	font-size: .8em;	
+}
+
+/* +++++++++++++++++ +++ Body Container ++++++++++++++++++++ */
+
+#body_container {
+	float: left;
+	position: relative;
+	right: -175px;
+
+}
+
+#body_container_b {
+	padding: 15px 0px;
+	width:160%;
+	margin-top: 1px;
+}
+
+#body_container_c {
+	color: inherit;
+	background-color: rgba(1, 5, 14, 0.205);
+	border-left: rgb(17, 32, 247) 2px ridge;
+	border-right:  rgb(17, 32, 247) 2px ridge;
+	border-top:  rgb(17, 32, 247) 19px  ;
+	border-bottom:  rgb(17, 32, 247) 2px ridge ;
+	border-radius: 30px;
+
+}
+.pk{
+		size: 120px 120px;
+}
+/* ++++++++++++++++++++ Page Header ++++++++++++++++++++ */
+
+#page_header {
+	padding-bottom: 4px;
+	color: inherit;
+	
+	background-color: #3409ac;
+	border-radius: 160px;
+}
+
+
+
+#page_header h1{
+	position: relative;
+	top: 2px;
+	margin-top: 0px;
+	color: #140aa596;
+	text-align: center ;
+	width: 100%;
+	height: 50px;
+	background: url('YES.jpg') no-repeat  50%;
+}
+
+
+/* +++++++f+++++++++++++ Page Content ++++++++++++++++++++ */
+#page_content {
+	padding: 15px 17px 10px;
+	font-weight: bold;
+	font-size: 1.7em;
+	text-align: left;
+}
+
+
+ /*++++++++++++++++++++ Navigation Menu ++++++++++++++++++++ */
+
+#navmenu {
+	position: fixed;
+	float: left;
+	margin-top: 68px;	
+	left: 10px;
+	width: 200px;	
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#navmenu_b {
+	padding: 15px 0px;
+	width: 166px;	
+}
+
+#navmenu_c {
+	color: inherit;
+	background-color: none;
+	border-left: rgb(32, 6, 180) 6px solid;
+	border-radius: 30px;
+}
+
+#navmenu a {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navmenu li {
+	border-top: none ;
+}
+
+#navmenu li a {
+	display: block;
+	padding: 5px 0px;
+	width: 160px;
+}
+
+#navmenu li a:hover {
+	color: orange;
+	background-color: blue;
+	border-radius: 80px;
+	font-size: large;	
+}
+
+#navmenu li.list_first {
+	border-top: none; 
+}
+/* ++++++++++++++++++++ Page Footer ++++++++++++++++++++ */
+#page_footer {
+	padding: 20px 0px;
+	font-size: 2.0em;
+	font-weight: bold;
+	color: rgb(30, 218, 161);
+	text-shadow: 2px 2px 5px rgb(187, 180, 233);
+}
+
+/* ++++++++++++++++++++ hidden words ++++++++++++++++++++ */
